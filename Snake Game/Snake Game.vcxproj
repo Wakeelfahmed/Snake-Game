@@ -127,12 +127,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\SDL2-devel-2.26.1-VC\include\SDL2_gfxPrimitives.c" />
+    <ClCompile Include="..\..\..\SDL2-devel-2.26.1-VC\include\SDL2_rotozoom.c" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Library Include="..\..\..\SDL2-devel-2.26.1-VC\lib\x64\SDL2.lib" />
     <Library Include="..\..\..\SDL2-devel-2.26.1-VC\lib\x64\SDL2main.lib" />
     <Library Include="..\..\..\SDL2-devel-2.26.1-VC\lib\x64\SDL2_ttf.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\SDL2-devel-2.26.1-VC\include\SDL2_gfxPrimitives.h" />
+    <ClInclude Include="..\..\..\SDL2-devel-2.26.1-VC\include\SDL2_rotozoom.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
